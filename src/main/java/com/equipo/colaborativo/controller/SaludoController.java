@@ -12,4 +12,8 @@ public class SaludoController {
     public String saludar(@RequestParam(defaultValue = "Mundo") String nombre) {
         return "¡Hola, " + nombre + "!";
     }
+    @GetMapping("/saludo")
+    public String saludar(@RequestParam(defaultValue = "Mundo") String nombre) {
+        return "¡Hola, " + nombre + "!";
+    }
 }
