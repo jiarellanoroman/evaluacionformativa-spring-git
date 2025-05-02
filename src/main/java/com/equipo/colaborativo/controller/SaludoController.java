@@ -12,7 +12,7 @@ public class SaludoController {
     public String saludar(@RequestParam(defaultValue = "Mundo") String nombre) {
         return "¡Hola, " + nombre + "!";
     }
-    @GetMapping("/saludo")
+    @GetMapping("/saludo1")
     public String saludar(@RequestParam(defaultValue = "Mundo") String nombre) {
         return "¡Hola, " + nombre + "!";
     }
